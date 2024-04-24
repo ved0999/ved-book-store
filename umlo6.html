@@ -1,0 +1,368 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+    <div class="div">
+        <img
+          loading="lazy"
+          srcset="..."
+          class="img"
+        />
+        <div class="div-2">
+          <div class="div-3">
+            <div class="column">
+              <div class="div-4">
+                <div class="div-5">
+                  <div class="column-2">
+                    <img
+                      loading="lazy"
+                      srcset="https://www.bookswagon.com/productimages/images200/618/9781421599618.jpg"
+                      class="img-2"
+                    />
+                  </div>
+                  <div class="column-3">
+                    <img
+                      loading="lazy"
+                      srcset="https://www.bookswagon.com/productimages/images200/291/9781524871291.jpg"
+                      class="img-3"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column-4">
+              <img
+                loading="lazy"
+                srcset="https://www.bookswagon.com/productimages/images200/939/9781974738939.jpg"
+                class="img-4"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="div-6">
+          <div class="div-7">
+            <div class="column-5">
+              <div class="div-8">
+                <div class="div-9">
+                  <div class="column-6">
+                    <div class="div-10">
+                      <br />
+                      <span style="font-size: 64px"><button style="font-size: 75PX;">price 10$</button></span>
+                    </div>
+                  </div>
+                  <div class="column-7"><div class="div-11"><button style="font-size: 75PX;">price 5$</button></div></div>
+                </div>
+              </div>
+            </div>
+            <div class="column-8"><div class="div-12"><button style="font-size: 75PX;">price 6      $</button></div></div>
+          </div>
+        </div>
+      </div>
+      <style>
+        .div {
+          display: flex;
+          flex-direction: column;
+          border-radius: 75px;
+          overflow: hidden;
+          position: relative;
+          display: flex;
+          min-height: 1072px;
+          padding: 44px 46px 80px;
+        }
+        @media (max-width: 991px) {
+          .div {
+            padding: 0 20px;
+          }
+        }
+        .img {
+          position: absolute;
+          inset: 0;
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+        .div-2 {
+          position: relative;
+        }
+        @media (max-width: 991px) {
+          .div-2 {
+            max-width: 100%;
+          }
+        }
+        .div-3 {
+          gap: 20px;
+          display: flex;
+        }
+        @media (max-width: 991px) {
+          .div-3 {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 0px;
+          }
+        }
+        .column {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: 65%;
+          margin-left: 0px;
+        }
+        @media (max-width: 991px) {
+          .column {
+            width: 100%;
+          }
+        }
+        .div-4 {
+          position: relative;
+          flex-grow: 1;
+        }
+        @media (max-width: 991px) {
+          .div-4 {
+            max-width: 100%;
+            margin-top: 21px;
+          }
+        }
+        .div-5 {
+          gap: 20px;
+          display: flex;
+        }
+        @media (max-width: 991px) {
+          .div-5 {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 0px;
+          }
+        }
+        .column-2 {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: 50%;
+          margin-left: 0px;
+        }
+        @media (max-width: 991px) {
+          .column-2 {
+            width: 100%;
+          }
+        }
+        .img-2 {
+          aspect-ratio: 0.63;
+          object-fit: auto;
+          object-position: center;
+          width: 100%;
+          flex-grow: 1;
+        }
+        @media (max-width: 991px) {
+          .img-2 {
+            max-width: 100%;
+            margin-top: 9px;
+          }
+        }
+        .column-3 {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: 50%;
+          margin-left: 20px;
+        }
+        @media (max-width: 991px) {
+          .column-3 {
+            width: 100%;
+          }
+        }
+        .img-3 {
+          aspect-ratio: 0.61;
+          object-fit: auto;
+          object-position: center;
+          width: 100%;
+          flex-grow: 1;
+        }
+        @media (max-width: 991px) {
+          .img-3 {
+            max-width: 100%;
+            margin-top: 9px;
+          }
+        }
+        .column-4 {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: 35%;
+          margin-left: 20px;
+        }
+        @media (max-width: 991px) {
+          .column-4 {
+            width: 100%;
+          }
+        }
+        .img-4 {
+          aspect-ratio: 0.67;
+          object-fit: auto;
+          object-position: center;
+          width: 100%;
+          margin-top: 8px;
+          flex-grow: 1;
+        }
+        @media (max-width: 991px) {
+          .img-4 {
+            max-width: 100%;
+            margin-top: 29px;
+          }
+        }
+        .div-6 {
+          position: relative;
+          margin-top: 42px;
+        }
+        @media (max-width: 991px) {
+          .div-6 {
+            max-width: 100%;
+            margin-top: 40px;
+          }
+        }
+        .div-7 {
+          gap: 20px;
+          display: flex;
+        }
+        @media (max-width: 991px) {
+          .div-7 {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 0px;
+          }
+        }
+        .column-5 {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: 68%;
+          margin-left: 0px;
+        }
+        @media (max-width: 991px) {
+          .column-5 {
+            width: 100%;
+          }
+        }
+        .div-8 {
+          position: relative;
+          flex-grow: 1;
+        }
+        @media (max-width: 991px) {
+          .div-8 {
+            max-width: 100%;
+            margin-top: 40px;
+          }
+        }
+        .div-9 {
+          gap: 20px;
+          display: flex;
+        }
+        @media (max-width: 991px) {
+          .div-9 {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 0px;
+          }
+        }
+        .column-6 {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: 50%;
+          margin-left: 0px;
+        }
+        @media (max-width: 991px) {
+          .column-6 {
+            width: 100%;
+          }
+        }
+        .div-10 {
+          background-color: #d9d9d9;
+          position: relative;
+          flex-grow: 1;
+          color: #000;
+          text-align: center;
+          width: 100%;
+          padding: 78px 45px 35px;
+          font: 400 48px Ultra, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-10 {
+            font-size: 40px;
+            max-width: 100%;
+            margin-top: 22px;
+            padding: 0 20px;
+          }
+        }
+        .column-7 {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: 50%;
+          margin-left: 20px;
+        }
+        @media (max-width: 991px) {
+          .column-7 {
+            width: 100%;
+          }
+        }
+        .div-11 {
+          background-color: #d9d9d9;
+          position: relative;
+          margin-top: 4px;
+          flex-grow: 1;
+          color: #000;
+          text-align: center;
+          width: 100%;
+          padding: 71px 44px 38px;
+          font: 400 64px Ultra, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-11 {
+            font-size: 40px;
+            max-width: 100%;
+            margin-top: 26px;
+            padding: 0 26px 0 20px;
+          }
+        }
+        .column-8 {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: 32%;
+          margin-left: 20px;
+        }
+        @media (max-width: 991px) {
+          .column-8 {
+            width: 100%;
+          }
+        }
+        .div-12 {
+          background-color: #d9d9d9;
+          position: relative;
+          margin-top: 4px;
+          flex-grow: 1;
+          color: #000;
+          text-align: center;
+          width: 100%;
+          padding: 71px 35px 38px;
+          font: 400 64px Ultra, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-12 {
+            font-size: 40px;
+            max-width: 100%;
+            margin-top: 40px;
+            padding: 0 25px 0 20px;
+          }
+        }
+      </style>
+      
+</body>
+</html>
